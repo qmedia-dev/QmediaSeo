@@ -1,7 +1,7 @@
 /**
  * seo-settings-installer
  *
- * Автоустановщик
+ * Автоустановщик seo-settings
  *
  * @category        plugin
  * @version         1.0.0
