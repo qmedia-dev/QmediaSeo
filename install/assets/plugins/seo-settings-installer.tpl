@@ -14,4 +14,4 @@
  * @internal        @installset base, sample
  */
 
-return require MODX_BASE_PATH . 'assets/modules/seo-settings/install.seo-settings.php';
+return require MODX_BASE_PATH . 'assets/plugins/seo-settings-installer.php';
