@@ -15,6 +15,7 @@ if (evo()->event->name == 'OnManagerPageInit') {
     if (!empty($pluginId)) {
         evo()->db->delete(evo()->getFullTableName('site_plugins'), "id = $pluginId");
         evo()->db->delete(evo()->getFullTableName("site_plugin_events"), "pluginid=$pluginId");
+        evo()->clearCache('full');
         unlink(MODX_BASE_PATH . 'assets/plugins/seo-settings-installer.php');
     };
 
