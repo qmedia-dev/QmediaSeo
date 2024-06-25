@@ -5,7 +5,7 @@
  *
  * @category      SEO
  * @name          seo_title
- * @internal      @modx_category Qmedia
+ * @internal      @modx_category SEO
  * @internal      @caption Тег title
  * @internal      @input_type textareamini
  * @internal      @input_options
