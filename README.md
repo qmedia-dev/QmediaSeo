@@ -19,7 +19,7 @@
 
 Базовые разделы работы над SEO на проектах:
 
-1. Управление SEO-тегами (title, description, keywords, h1)
+1. Управление SEO-тегами (h1, title, description, keywords)
 2. Управление HTML-инъекциями (head, начало body, конец body)
    > Список таких мест может быть расширен в зависимости от проекта
 3. Управление разметкой Open Graph (title, type, image, description)
@@ -41,10 +41,10 @@
 
 В настройках сайта и у каждого ресурса в админке, во вкладке "SEO-теги", предусмотрен набор полей для указания правил генерации содержимого тегов.
 
-1. seo_title :: `<title> ___ </title>`
-2. seo_description :: `<meta name="description" content=" ___ ">`
-3. seo_keywords :: `<meta name="keywords" content=" ___ ">`
-4. seo_h1 :: `<h1> ___ </h1>`
+1. seo_h1 :: `<h1> ___ </h1>`
+2. seo_title :: `<title> ___ </title>`
+3. seo_description :: `<meta name="description" content=" ___ ">`
+4. seo_keywords :: `<meta name="keywords" content=" ___ ">`
 
 > Каждое из таких полей – это по сути редактор кода, который поддерживает синтаксис blade-шаблонизации.
 

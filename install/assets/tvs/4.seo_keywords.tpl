@@ -1,12 +1,9 @@
  /**
- * seo_title
- *
- * Тег title
- *
- * @category      SEO
- * @name          seo_title
+ * @category      SEO-теги
+ * @name          seo_keywords
  * @internal      @modx_category SEO
- * @internal      @caption Тег title
+ * @internal      @caption Meta-keywords
+ * @internal      @description <meta name="keywords" content=" ___ ">
  * @internal      @input_type textareamini
  * @internal      @input_options
  * @internal      @input_default
