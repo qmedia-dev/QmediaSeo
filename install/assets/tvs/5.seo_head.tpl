@@ -1,4 +1,8 @@
  /**
+ * seo_head
+ *
+ * Внутри тега head
+ *
  * @category      HTML-инъекции
  * @name          seo_head
  * @internal      @modx_category SEO

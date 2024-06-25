@@ -1,4 +1,8 @@
  /**
+ * seo_body_end
+ *
+ * Перед закрывающим тегом body
+ *
  * @category      HTML-инъекции
  * @name          seo_body_end
  * @internal      @modx_category SEO

@@ -1,4 +1,8 @@
  /**
+ * seo_title
+ *
+ * Title
+ *
  * @category      SEO-теги
  * @name          seo_title
  * @internal      @modx_category SEO

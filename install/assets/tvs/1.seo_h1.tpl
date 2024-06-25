@@ -1,4 +1,8 @@
  /**
+ * seo_h1
+ *
+ * H1
+ *
  * @category      SEO-теги
  * @name          seo_h1
  * @internal      @modx_category SEO

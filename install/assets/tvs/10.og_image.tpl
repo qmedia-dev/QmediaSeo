@@ -1,14 +1,14 @@
  /**
- * seo_keywords
+ * og_image
  *
- * Meta-keywords
+ * Open Graph Image
  *
- * @category      SEO-теги
- * @name          seo_keywords
+ * @category      Open Graph
+ * @name          og_image
  * @internal      @modx_category SEO
- * @internal      @caption Meta-keywords
- * @internal      @description <meta name="keywords" content=" ___ ">
- * @internal      @input_type textareamini
+ * @internal      @caption Open Graph Image
+ * @internal      @description <meta property="og:image" content=" ___ ">
+ * @internal      @input_type image
  * @internal      @input_options
  * @internal      @input_default
  * @internal      @output_widget

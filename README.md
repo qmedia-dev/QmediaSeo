@@ -183,10 +183,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 В настройках сайта и у каждого ресурса в админке, во вкладке "Open Graph", предусмотрен набор полей для управления содержимым разметки Open Graph.
 
-1. og_title :: `<meta property="og:title" content=" ___ " />` (по умолчанию seo_title)
-2. og_type :: `<meta property="og:type" content=" ___ " />` (по умолчанию "website")
-3. og_image :: `<meta property="og:image" content=" ___ " />`
-4. og_description :: `<meta property="og:description" content=" ___ " />` (по умолчанию seo_description)
+1. og_title :: `<meta property="og:title" content=" ___ ">` (по умолчанию seo_title)
+2. og_type :: `<meta property="og:type" content=" ___ ">` (по умолчанию "website")
+3. og_image :: `<meta property="og:image" content=" ___ ">`
+4. og_description :: `<meta property="og:description" content=" ___ ">` (по умолчанию seo_description)
 
 > Каждое из таких полей (кроме `og_image`) – это по сути редактор кода, который поддерживает синтаксис blade-шаблонизации.
 

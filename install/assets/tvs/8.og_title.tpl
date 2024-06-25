@@ -1,13 +1,13 @@
  /**
- * seo_keywords
+ * og_title
  *
- * Meta-keywords
+ * Open Graph Title
  *
- * @category      SEO-теги
- * @name          seo_keywords
+ * @category      Open Graph
+ * @name          og_title
  * @internal      @modx_category SEO
- * @internal      @caption Meta-keywords
- * @internal      @description <meta name="keywords" content=" ___ ">
+ * @internal      @caption Open Graph Title
+ * @internal      @description <meta property="og:title" content=" ___ ">
  * @internal      @input_type textareamini
  * @internal      @input_options
  * @internal      @input_default
