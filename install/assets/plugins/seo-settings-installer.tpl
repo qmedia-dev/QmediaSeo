@@ -10,7 +10,6 @@
  * @license         http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
  *
  * @internal        @events OnManagerPageInit
- * @internal        @modx_category SEO
  * @internal        @installset base, sample
  */
 
