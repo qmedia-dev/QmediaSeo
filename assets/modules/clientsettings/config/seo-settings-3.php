@@ -14,7 +14,7 @@ return [
     <small class="comment"><a href="https://ogp.me/" target="_blank">Спецификация Open Graph</a></small>
   </p>
   <div class="element-edit-message-tab alert alert-warning">
-    Подробнее в <a href="https://github.com/qmedia-dev/seo-settings?tab=readme-ov-file#open-graph" target="_blank">документации</a> (содержит подробное описание и примеры blade-шаблонизаций)
+    Подробнее в <a href="https://gist.github.com/qmedia-dev/f8880c0a3fcd669a44c6a1cd33116ede#open-graph" target="_blank">документации</a> (содержит подробное описание и примеры blade-шаблонизаций)
   </div>',
   'settings' => [
     'og_title' => [

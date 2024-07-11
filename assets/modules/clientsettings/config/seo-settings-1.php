@@ -11,7 +11,7 @@ return [
   'introtext' => '
   <p>Управление содержимым тегов: title, meta-description, meta-keywords, h1</p>
   <div class="element-edit-message-tab alert alert-warning">
-    Подробнее в <a href="https://github.com/qmedia-dev/seo-settings?tab=readme-ov-file#seo-теги" target="_blank">документации</a> (содержит подробное описание и примеры blade-шаблонизаций)
+    Подробнее в <a href="https://gist.github.com/qmedia-dev/f8880c0a3fcd669a44c6a1cd33116ede#seo-теги" target="_blank">документации</a> (содержит подробное описание и примеры blade-шаблонизаций)
   </div>',
   'settings' => [
     'seo_h1' => [

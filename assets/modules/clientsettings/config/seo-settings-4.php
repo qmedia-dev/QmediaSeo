@@ -11,7 +11,7 @@ return [
   'introtext' => '
   <p>Управление 301 редиректами</p>
   <div class="element-edit-message-tab alert alert-warning">
-    Подробнее в <a href="https://github.com/qmedia-dev/seo-settings?tab=readme-ov-file#301-редиректы" target="_blank">документации</a> (содержит подробное описание и примеры blade-шаблонизаций)
+    Подробнее в <a href="https://gist.github.com/qmedia-dev/f8880c0a3fcd669a44c6a1cd33116ede#301-редиректы" target="_blank">документации</a> (содержит подробное описание и примеры blade-шаблонизаций)
   </div>',
   'settings' => [
     'seo_301_redirects' => [
