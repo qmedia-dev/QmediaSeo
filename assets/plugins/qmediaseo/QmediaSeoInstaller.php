@@ -59,9 +59,9 @@ if (evo()->event->name == 'OnManagerPageInit') {
 
     createTemplateVar(
         [
-            'name' => 'seo_h1',
-            'caption' => 'H1',
-            'description' => '<h1> ____ </h1>',
+            'name' => 'seo_head',
+            'caption' => 'HTML-код внутри тега <head>',
+            'description' => '<head> ____ </head>',
             'type' => 'textareamini',
         ],
         'SEO-теги',
@@ -71,8 +71,8 @@ if (evo()->event->name == 'OnManagerPageInit') {
     createTemplateVar(
         [
             'name' => 'seo_title',
-            'caption' => 'Title',
-            'description' => '<title> ____ </title>',
+            'caption' => 'Тег <title>',
+            'description' => '<title> ____ </title>',
             'type' => 'textareamini',
         ],
         'SEO-теги',
@@ -82,8 +82,8 @@ if (evo()->event->name == 'OnManagerPageInit') {
     createTemplateVar(
         [
             'name' => 'seo_description',
-            'caption' => 'Meta-description',
-            'description' => '<meta name="description" content=" ____ ">',
+            'caption' => 'Meta Description',
+            'description' => '<meta name="description" content=" ____ ">',
             'type' => 'textareamini',
         ],
         'SEO-теги',
@@ -93,8 +93,8 @@ if (evo()->event->name == 'OnManagerPageInit') {
     createTemplateVar(
         [
             'name' => 'seo_keywords',
-            'caption' => 'Meta-keywords',
-            'description' => '<meta name="keywords" content=" ____ ">',
+            'caption' => 'Meta Keywords',
+            'description' => '<meta name="keywords" content=" ____ ">',
             'type' => 'textareamini',
         ],
         'SEO-теги',
@@ -103,42 +103,9 @@ if (evo()->event->name == 'OnManagerPageInit') {
 
     createTemplateVar(
         [
-            'name' => 'injection_head',
-            'caption' => 'Внутри тега head',
-            'description' => '<head> ____ </head>',
-            'type' => 'textareamini',
-        ],
-        'HTML-инъекции',
-        '*',
-    );
-
-    createTemplateVar(
-        [
-            'name' => 'injection_body_start',
-            'caption' => 'После открывающего тега body',
-            'description' => '<body> ____',
-            'type' => 'textareamini',
-        ],
-        'HTML-инъекции',
-        '*',
-    );
-
-    createTemplateVar(
-        [
-            'name' => 'injection_body_end',
-            'caption' => 'Перед закрывающим тегом body',
-            'description' => '____ </body>',
-            'type' => 'textareamini',
-        ],
-        'HTML-инъекции',
-        '*',
-    );
-
-    createTemplateVar(
-        [
             'name' => 'og_title',
-            'caption' => 'Open Graph Title',
-            'description' => '<meta property="og:title" content=" ___ ">',
+            'caption' => 'OG Title',
+            'description' => '<meta property="og:title" content=" ____ ">',
             'type' => 'textareamini',
         ],
         'Open Graph',
@@ -148,8 +115,8 @@ if (evo()->event->name == 'OnManagerPageInit') {
     createTemplateVar(
         [
             'name' => 'og_type',
-            'caption' => 'Open Graph Type',
-            'description' => '<meta property="og:type" content=" ___ ">',
+            'caption' => 'OG Type',
+            'description' => '<meta property="og:type" content=" ____ ">',
             'type' => 'textareamini',
         ],
         'Open Graph',
@@ -159,8 +126,8 @@ if (evo()->event->name == 'OnManagerPageInit') {
     createTemplateVar(
         [
             'name' => 'og_image',
-            'caption' => 'Open Graph Image',
-            'description' => '<meta property="og:image" content=" ___ ">',
+            'caption' => 'OG Image',
+            'description' => '<meta property="og:image" content=" ____ ">',
             'type' => 'image',
         ],
         'Open Graph',
@@ -170,8 +137,8 @@ if (evo()->event->name == 'OnManagerPageInit') {
     createTemplateVar(
         [
             'name' => 'og_description',
-            'caption' => 'Open Graph Description',
-            'description' => '<meta property="og:description" content=" ___ ">',
+            'caption' => 'OG Description',
+            'description' => '<meta property="og:description" content=" ____ ">',
             'type' => 'textareamini',
         ],
         'Open Graph',
