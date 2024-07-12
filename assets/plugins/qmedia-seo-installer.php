@@ -179,7 +179,7 @@ if (evo()->event->name == 'OnManagerPageInit') {
     );
 
     //удаляем плагин
-    $pluginId  = evo()->db->getValue(evo()->db->select('id', evo()->getFullTableName('site_plugins'), 'name="qmedia-seoqmedia-seo-installer"'));
+    $pluginId  = evo()->db->getValue(evo()->db->select('id', evo()->getFullTableName('site_plugins'), 'name="qmedia-seo-installer"'));
     if (!empty($pluginId)) {
         evo()->db->delete(evo()->getFullTableName('site_plugins'), "id = $pluginId");
         evo()->db->delete(evo()->getFullTableName("site_plugin_events"), "pluginid=$pluginId");
