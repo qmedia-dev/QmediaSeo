@@ -181,9 +181,9 @@ if (evo()->event->name == 'OnManagerPageInit') {
     //удаляем плагин
     $pluginId  = evo()->db->getValue(evo()->db->select('id', evo()->getFullTableName('site_plugins'), 'name="qmedia-seo-installer"'));
     if (!empty($pluginId)) {
-        evo()->db->delete(evo()->getFullTableName('site_plugins'), "id = $pluginId");
-        evo()->db->delete(evo()->getFullTableName("site_plugin_events"), "pluginid=$pluginId");
+        evo()->db->delete(evo()->getFullTableName('site_plugins'), "`id` = '$pluginId'");
+        evo()->db->delete(evo()->getFullTableName("site_plugin_events"), "`pluginid` = '$pluginId'");
         evo()->clearCache('full');
-        unlink(MODX_BASE_PATH . 'assets/plugins/qmedia-seo-installer.php');
+        unlink(MODX_BASE_PATH . 'assets/plugins/qmedia-seo/qmedia-seo-installer.php');
     };
 }

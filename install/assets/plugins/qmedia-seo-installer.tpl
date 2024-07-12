@@ -13,4 +13,4 @@
  * @internal        @installset base, sample
  */
 
-return require MODX_BASE_PATH . 'assets/plugins/qmedia-seo-installer.php';
+return require MODX_BASE_PATH . 'assets/plugins/qmedia-seo/qmedia-seo-installer.php';
