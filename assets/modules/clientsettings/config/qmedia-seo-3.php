@@ -3,7 +3,7 @@
 return [
   'menu' => [
     'alias' => 'SEO',
-    'caption' => 'SEO',
+    'caption' => 'SEO / Аналитика',
     'icon' => 'fa-search',
   ],
 
