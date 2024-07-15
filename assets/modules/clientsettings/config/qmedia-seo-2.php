@@ -19,15 +19,19 @@ return [
     </div>',
     'settings' => [
         'analytic_head' => [
-            'caption' => 'Внутри тега &lt;head&gt;<br><span class="comment">&lt;head&gt; ____ &lt;/head&gt;</span>',
+            'caption' => 'Код внутри тега &lt;head&gt;<br><span class="comment">&lt;head&gt; ____ &lt;/head&gt;</span>',
             'type'  => 'textareamini',
         ],
         'analytic_body_start' => [
-            'caption' => 'После открывающего тега &lt;body&gt;<br><span class="comment">&lt;body&gt; ____ </span>',
+            'caption' => 'Код после открывающего тега &lt;body&gt;<br><span class="comment">&lt;body&gt; ____ </span>',
             'type'  => 'textareamini',
         ],
         'analytic_body_end' => [
-            'caption' => 'Перед закрывающим тегом &lt;body&gt;<br><span class="comment">____ &lt;/body&gt;</span>',
+            'caption' => 'Код перед закрывающим тегом &lt;body&gt;<br><span class="comment">____ &lt;/body&gt;</span>',
+            'type'  => 'textareamini',
+        ],
+        'analytic_after_cookies' => [
+            'caption' => 'Код, подключаемый после принятия Cookies',
             'type'  => 'textareamini',
         ],
     ],

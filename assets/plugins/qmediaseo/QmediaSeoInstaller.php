@@ -59,9 +59,9 @@ if (evo()->event->name == 'OnManagerPageInit') {
 
     createTemplateVar(
         [
-            'name' => 'seo_head',
-            'caption' => 'HTML-код внутри тега <head>',
-            'description' => '<head> ____ </head>',
+            'name' => 'seo_h1',
+            'caption' => 'Тег <h1>',
+            'description' => '<h1> ____ </h1>',
             'type' => 'textareamini',
         ],
         'SEO-теги',
@@ -95,6 +95,17 @@ if (evo()->event->name == 'OnManagerPageInit') {
             'name' => 'seo_keywords',
             'caption' => 'Meta Keywords',
             'description' => '<meta name="keywords" content=" ____ ">',
+            'type' => 'textareamini',
+        ],
+        'SEO-теги',
+        '*',
+    );
+
+    createTemplateVar(
+        [
+            'name' => 'seo_head',
+            'caption' => 'HTML-код внутри тега <head>',
+            'description' => '<head> ____ </head>',
             'type' => 'textareamini',
         ],
         'SEO-теги',
