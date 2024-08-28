@@ -21,11 +21,11 @@ return [
     'settings' => [
         'og_title' => [
             'caption' => 'Title<br><span class="comment">&lt;meta property="og:title" content=" ____ " /&gt;<br>по умолчанию seo_title</span>',
-            'type'  => 'textareamini',
+            'type'  => 'custom_tv:codeeditor',
         ],
         'og_type' => [
             'caption' => 'Type<br><span class="comment">&lt;meta property="og:type" content=" ____ " /&gt;<br>по умолчанию "website"</span>',
-            'type'  => 'textareamini',
+            'type'  => 'custom_tv:codeeditor',
         ],
         'og_image' => [
             'caption' => 'Image<br><span class="comment">&lt;meta property="og:image" content=" ____ " /&gt;</span>',
@@ -33,7 +33,7 @@ return [
         ],
         'og_description' => [
             'caption' => 'Description<br><span class="comment">&lt;meta property="og:description" content=" ____ " /&gt;<br>по умолчанию seo_description</span>',
-            'type'  => 'textareamini',
+            'type'  => 'custom_tv:codeeditor',
         ],
     ],
 ];

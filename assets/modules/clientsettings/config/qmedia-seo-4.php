@@ -20,7 +20,7 @@ return [
     'settings' => [
         'seo_redirects_301' => [
             'caption' => 'Список инструкций для редиректов<br><span class="comment">___old_url___||___new_url____<br><span class="comment">/old/url.html||new/url.html</span>',
-            'type'  => 'textareamini',
+            'type'  => 'custom_tv:codeeditor',
         ],
     ],
 ];

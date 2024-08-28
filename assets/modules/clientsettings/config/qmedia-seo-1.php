@@ -20,23 +20,23 @@ return [
     'settings' => [
         'seo_h1' => [
             'caption' => 'Тег &lt;h1&gt;<br><span class="comment">&lt;h1&gt; ____ &lt;/h1&gt;</span>',
-            'type'  => 'textareamini',
+            'type'  => 'custom_tv:codeeditor',
         ],
         'seo_title' => [
             'caption' => 'Тег &lt;title&gt;<br><span class="comment">&lt;title&gt; ____ &lt;/title&gt;</span>',
-            'type'  => 'textareamini',
+            'type'  => 'custom_tv:codeeditor',
         ],
         'seo_description' => [
             'caption' => 'Meta Description<br><span class="comment">&lt;meta name="description" content=" ____ "&gt;</span>',
-            'type'  => 'textareamini',
+            'type'  => 'custom_tv:codeeditor',
         ],
         'seo_keywords' => [
             'caption' => 'Meta Keywords<br><span class="comment">&lt;meta name="keywords" content=" ____ "&gt;</span>',
-            'type'  => 'textareamini',
+            'type'  => 'custom_tv:codeeditor',
         ],
         'seo_head' => [
             'caption' => 'Код внутри тега &lt;head&gt;<br><span class="comment">&lt;head&gt; ____ &lt;/head&gt;</span>',
-            'type'  => 'textareamini',
+            'type'  => 'custom_tv:codeeditor',
         ],
     ],
 ];
