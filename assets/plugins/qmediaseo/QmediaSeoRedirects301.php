@@ -10,14 +10,18 @@ $clientsettingsList = evo()->getConfig('client_seo_redirects_301') ?? '';
 // Получаем содержимое списка редиректов из чанка
 $chunkList = evo()->getChunk('seo_redirects_301') ?? '';
 
-//Разбиваем код чанка по переводу строки в массив правил редиректа 
+//Разбиваем код чанка по переводу строки в массив правил редиректа
 $mapLines = explode("\n", $clientsettingsList . "\n" . $chunkList);
 
-// Создаем пустой массив 
+// Создаем пустой массив
 $mapArr = array();
 
 // Проходимся по массиву со строками правил редиректа
 foreach ($mapLines as $line) {
+    if (empty($line)) {
+        continue;
+    }
+
     list($oldLink, $newLink) = explode('||', $line);
     if (!empty($oldLink) && !empty($newLink)) {
         $mapArr[$oldLink] = $newLink;
