@@ -156,6 +156,28 @@ if (evo()->event->name == 'OnManagerPageInit') {
         '*',
     );
 
+    createTemplateVar(
+        [
+            'name' => 'sitemap_xml_visible',
+            'caption' => 'Ресурс виден в XML-карте сайта',
+            'description' => 'Параметр участвует в алгоритме формирования XML-карты сайта',
+            'type' => 'option',
+        ],
+        'Карты сайта',
+        '*',
+    );
+
+    createTemplateVar(
+        [
+            'name' => 'sitemap_html_visible',
+            'caption' => 'Ресурс виден в HTML-карте сайта',
+            'description' => 'Параметр участвует в алгоритме формирования HTML-карты сайта',
+            'type' => 'option',
+        ],
+        'Карты сайта',
+        '*',
+    );
+
     //удаляем плагин
     $pluginId  = evo()->db->getValue(evo()->db->select('id', evo()->getFullTableName('site_plugins'), 'name="QmediaSeoInstaller"'));
     if (!empty($pluginId)) {
