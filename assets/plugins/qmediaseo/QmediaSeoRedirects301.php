@@ -23,7 +23,9 @@ foreach ($mapLines as $line) {
     }
 
     list($oldLink, $newLink) = explode('||', $line);
-    if (!empty($oldLink) && !empty($newLink)) {
+    $oldLink = trim($oldLink);
+    $newLink = trim($newLink);
+    if (!empty($oldLink) && !empty($newLink) && $oldLink !== $newLink) {
         $mapArr[$oldLink] = $newLink;
     }
 }
