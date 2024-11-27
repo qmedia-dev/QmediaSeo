@@ -171,7 +171,7 @@ if (evo()->event->name == 'OnManagerPageInit') {
 
     createTemplateVar(
         [
-            'name' => 'sitemap_html_visible',
+            'name' => 'sitemap_html_exclude',
             'caption' => 'Исключить этот ресурс из HTML-карты сайта',
             'description' => 'Параметр участвует в алгоритме формирования HTML-карты сайта',
             'type' => 'option',
