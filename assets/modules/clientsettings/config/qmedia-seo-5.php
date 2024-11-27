@@ -19,19 +19,19 @@ return [
     </div>',
     'settings' => [
         'sitemap_xml_addwherelist' => [
-            'caption' => 'addWhereList для XML-карты<br><span class="comment">Параметр сниппета DocLister для настройки выборки документов<br> <a href="https://docs.evo.im/04_extras/doclister/01_parameters.html#:~:text=addWhereList" target="_blank">Подробнее</a></span>',
+            'caption' => 'addWhereList для XML-карты<br><span class="comment">Параметр сниппета DocLister для настройки выборки документов<br> <a href="https://docs.evo.im/04_extras/doclister/06_examples.html#:~:text=addWhereList" target="_blank">Подробнее</a></span>',
             'type'  => 'text',
         ],
         'sitemap_xml_filters' => [
-            'caption' => 'filters для XML-карты<br><span class="comment">Параметр сниппета DocLister для настройки выборки документов<br> <a href="https://docs.evo.im/04_extras/doclister/01_parameters.html#:~:text=filters" target="_blank">Подробнее</a></span>',
+            'caption' => 'filters для XML-карты<br><span class="comment">Параметр сниппета DocLister для настройки выборки документов<br> <a href="https://docs.evo.im/04_extras/doclister/04_filters.html" target="_blank">Подробнее</a></span>',
             'type'  => 'text',
         ],
         'sitemap_html_addwherelist' => [
-            'caption' => 'addWhereList для HTML-карты<br><span class="comment">Параметр сниппета DocLister для настройки выборки документов<br> <a href="https://docs.evo.im/04_extras/doclister/01_parameters.html#:~:text=addWhereList" target="_blank">Подробнее</a></span>',
+            'caption' => 'addWhereList для HTML-карты<br><span class="comment">Параметр сниппета DocLister для настройки выборки документов<br> <a href="https://docs.evo.im/04_extras/doclister/06_examples.html#:~:text=addWhereList" target="_blank">Подробнее</a></span>',
             'type'  => 'text',
         ],
         'sitemap_html_filters' => [
-            'caption' => 'filters для HTML-карты<br><span class="comment">Параметр сниппета DocLister для настройки выборки документов<br> <a href="https://docs.evo.im/04_extras/doclister/01_parameters.html#:~:text=filters" target="_blank">Подробнее</a></span>',
+            'caption' => 'filters для HTML-карты<br><span class="comment">Параметр сниппета DocLister для настройки выборки документов<br> <a href="https://docs.evo.im/04_extras/doclister/04_filters.html" target="_blank">Подробнее</a></span>',
             'type'  => 'text',
         ],
     ],
