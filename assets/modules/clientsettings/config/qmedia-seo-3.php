@@ -20,19 +20,19 @@ return [
     </div>',
     'settings' => [
         'og_title' => [
-            'caption' => 'Title<br><span class="comment">&lt;meta property="og:title" content=" ____ " /&gt;</span>',
+            'caption' => 'Шаблон для og:title<br><span class="comment">&lt;meta property="og:title" content=" ____ "&gt;<br>Если не указан, то будет использован seo_title из вкладки "SEO-теги"</span>',
             'type'  => 'custom_tv:codeeditor',
         ],
         'og_type' => [
-            'caption' => 'Type<br><span class="comment">&lt;meta property="og:type" content=" ____ " /&gt;<br></span>',
+            'caption' => 'Шаблон для og:type<br><span class="comment">&lt;meta property="og:type" content=" ____ "&gt;<br></span>',
             'type'  => 'custom_tv:codeeditor',
         ],
         'og_image' => [
-            'caption' => 'Image<br><span class="comment">&lt;meta property="og:image" content=" ____ " /&gt;</span>',
+            'caption' => 'Заглушка для og:image<br><span class="comment">&lt;meta property="og:image" content=" ____ "&gt;</span>',
             'type'  => 'image',
         ],
         'og_description' => [
-            'caption' => 'Description<br><span class="comment">&lt;meta property="og:description" content=" ____ " /&gt;</span>',
+            'caption' => 'Шаблон для og:description<br><span class="comment">&lt;meta property="og:description" content=" ____ "&gt;<br>Если не указан, то будет использован seo_description из вкладки "SEO-теги"</span>',
             'type'  => 'custom_tv:codeeditor',
         ],
     ],

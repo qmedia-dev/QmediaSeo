@@ -19,23 +19,23 @@ return [
     </div>',
     'settings' => [
         'seo_h1' => [
-            'caption' => 'Тег &lt;h1&gt;<br><span class="comment">&lt;h1&gt; ____ &lt;/h1&gt;</span>',
+            'caption' => 'Шаблон для &lt;h1&gt;<br><span class="comment">&lt;h1&gt; ____ &lt;/h1&gt;</span>',
             'type'  => 'custom_tv:codeeditor',
         ],
         'seo_title' => [
-            'caption' => 'Тег &lt;title&gt;<br><span class="comment">&lt;title&gt; ____ &lt;/title&gt;</span>',
+            'caption' => 'Шаблон для &lt;title&gt;<br><span class="comment">&lt;title&gt; ____ &lt;/title&gt;</span>',
             'type'  => 'custom_tv:codeeditor',
         ],
         'seo_description' => [
-            'caption' => 'Meta Description<br><span class="comment">&lt;meta name="description" content=" ____ "&gt;</span>',
+            'caption' => 'Шаблон для meta-description<br><span class="comment">&lt;meta name="description" content=" ____ "&gt;</span>',
             'type'  => 'custom_tv:codeeditor',
         ],
         'seo_keywords' => [
-            'caption' => 'Meta Keywords<br><span class="comment">&lt;meta name="keywords" content=" ____ "&gt;</span>',
+            'caption' => 'Шаблон для meta-keywords<br><span class="comment">&lt;meta name="keywords" content=" ____ "&gt;</span>',
             'type'  => 'custom_tv:codeeditor',
         ],
         'seo_head' => [
-            'caption' => 'Код внутри тега &lt;head&gt;<br><span class="comment">&lt;head&gt; ____ &lt;/head&gt;</span>',
+            'caption' => 'Код внутри &lt;head&gt;<br><span class="comment">&lt;head&gt; ____ &lt;/head&gt;</span>',
             'type'  => 'custom_tv:codeeditor',
         ],
     ],
