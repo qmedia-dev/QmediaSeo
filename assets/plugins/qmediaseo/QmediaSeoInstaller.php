@@ -158,10 +158,12 @@ if (evo()->event->name == 'OnManagerPageInit') {
 
     createTemplateVar(
         [
-            'name' => 'sitemap_xml_visible',
-            'caption' => 'Ресурс виден в XML-карте сайта',
+            'name' => 'sitemap_xml_exclude',
+            'caption' => 'Исключить ресурс из XML-карты сайта',
             'description' => 'Параметр участвует в алгоритме формирования XML-карты сайта',
             'type' => 'option',
+            'elements' => 'Нет==no||Да==yes',
+            'default_text' => 'no',
         ],
         'Карты сайта',
         '*',
@@ -170,9 +172,11 @@ if (evo()->event->name == 'OnManagerPageInit') {
     createTemplateVar(
         [
             'name' => 'sitemap_html_visible',
-            'caption' => 'Ресурс виден в HTML-карте сайта',
+            'caption' => 'Исключить ресурс из HTML-карты сайта',
             'description' => 'Параметр участвует в алгоритме формирования HTML-карты сайта',
             'type' => 'option',
+            'elements' => 'Нет==no||Да==yes',
+            'default_text' => 'no',
         ],
         'Карты сайта',
         '*',
